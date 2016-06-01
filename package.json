@@ -1,0 +1,23 @@
+{
+  "name": "slime_crawler",
+  "version": "1.0.0",
+  "description": "Crawler of URLs",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler",
+    "domains",
+    "title",
+    "description"
+  ],
+  "author": "Rockerbox <farid@rockerbox.com>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "mysql": "^2.10.2",
+    "node-mysql": "^0.4.2",
+    "zombie": "^4.2.1"
+  }
+}
